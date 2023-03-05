@@ -12,7 +12,7 @@ const Hero = () => {
                     <h1 className="title-font text-4xl mb-4 font-bold">Become The Hero
                         <br className="hidden lg:inline-block" /> Of Your Own Story
                     </h1>
-                    <p className="mb-8 leading-relaxed">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                    <p className="mb-8 leading-relaxed text-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
                     <div className="flex w-full md:justify-start justify-center">
                         <div className="relative w-full">
                             <input type="text" placeholder='Enter Your Email ID' id="hero-field" name="hero-field" className=" block p-2.5 w-full z-20 text-sm bg-[#F4F2FF] focus:ring-1 focus:outline-none focus:ring-[#e4e1f6]" />
@@ -30,20 +30,20 @@ const Hero = () => {
                 </div>
             </div>
             <div className='container flex flex-wrap justify-between mx-auto items-center font-semibold text-lg'>
-                <p>Podcast Available On</p>
-                <div className='cursor-pointer flex items-center space-x-2'>
+                <p className='sm:mt-0 mt-6'>Podcast Available On</p>
+                <div className='cursor-pointer flex items-center space-x-2 sm:mt-0 mt-8'>
                     <img src={icon} alt="apple-podcasts" />
                     <p>Apple Podcasts</p>
                 </div>
-                <div className='cursor-pointer  flex items-center space-x-2'>
+                <div className='cursor-pointer  flex items-center space-x-2 sm:mt-0 mt-8'>
                     <img src={cloud} alt="sound-cloud" />
                     <p>SOUNDCLOUD</p>
                 </div>
-                <div className='cursor-pointer  flex items-center space-x-2'>
+                <div className='cursor-pointer  flex items-center space-x-2 sm:mt-0 mt-8'>
                     <img src={line} alt="google-podcasts" />
                     <p>Google Podcasts</p>
                 </div>
-                <div className='cursor-pointer  flex items-center space-x-2'>
+                <div className='cursor-pointer  flex items-center space-x-2 sm:mt-0 mt-8'>
                     <img src={spotify} alt="spotify" />
                     <p>Spotify</p>
                 </div>
