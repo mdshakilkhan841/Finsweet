@@ -5,7 +5,7 @@ import NewsCard from './NewsCard'
 
 const Body = () => {
     return (
-        <div className='container mx-auto md:mt-24 mt-12'>
+        <div className='container mx-auto md:pt-24 pt-12 px-5'>
             <p className='text-left text-2xl font-bold'>Recent Episodes</p>
             <div className='flex justify-between mt-4 items-center'>
                 <p className='w-1/2 text-left'>Apparently we had reached a great height in the <br className="hidden md:inline-block" />  atmosphere, for the sky was a dead black.</p>
@@ -23,6 +23,7 @@ const Body = () => {
             <div className='container py-10 mx-auto'>
                 <div className='flex flex-wrap -m-4'>
                     <ArticalCard />
+                    <NewsCard />
                     <NewsCard />
                 </div>
             </div>
