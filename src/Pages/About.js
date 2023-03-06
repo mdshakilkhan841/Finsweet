@@ -6,7 +6,7 @@ const About = () => {
         <div>
             <div className="container mx-auto flex lg:px-24 md:px-12 md:py-24 py-12 sm:flex-row flex-col items-center px-5">
                 <div className="sm:w-1/2 flex flex-col sm:items-start sm:text-left mb-16 md:mb-0 items-center text-center lg:pr-20">
-                    <h1 className="text-4xl mb-4 font-bold">About Finsweet
+                    <h1 className="text-4xl mb-8 font-bold">About Finsweet
                         <br className="hidden lg:inline-block" /> Podcast
                     </h1>
                     <p className="mb-8 leading-relaxed sm:text-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>

@@ -16,14 +16,11 @@ const Body = () => {
             <div className='container py-14 mx-auto'>
                 <div className='flex flex-wrap -m-4'>
                     <Card />
-                    <Card />
-                    <Card />
                 </div>
             </div>
             <div className='container py-10 mx-auto'>
                 <div className='flex flex-wrap -m-4'>
                     <ArticalCard />
-                    <NewsCard />
                     <NewsCard />
                 </div>
             </div>

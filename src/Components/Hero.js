@@ -9,7 +9,7 @@ const Hero = () => {
         <>
             <div className="container mx-auto flex lg:px-24 md:px-12 md:py-24 py-12 sm:flex-row flex-col items-center px-5">
                 <div className="sm:w-1/2 flex flex-col sm:items-start sm:text-left mb-16 md:mb-0 items-center text-center lg:pr-20">
-                    <h1 className="text-4xl mb-4 font-bold">Become The Hero
+                    <h1 className="text-4xl mb-8 font-bold">Become The Hero
                         <br className="hidden lg:inline-block" /> Of Your Own Story
                     </h1>
                     <p className="mb-8 leading-relaxed sm:text-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
@@ -20,7 +20,7 @@ const Hero = () => {
                         <button className="flex text-white bg-[#4F3BE7] border-0 py-1.5 sm:px-6 px-1.5 focus:outline-none hover:bg-[#3F2DB2] sm:text-lg text-center items-center">Subscribe</button>
                     </div>
                 </div>
-                <div className="sm:w-1/2 flex sm:justify-evenly space-x-5 items-center lg:pl-20">
+                <div className="sm:w-1/2 flex sm:justify-evenly space-x-4 items-center lg:pl-20">
                     <div className='bg-[#4F3BE7] h-20 w-8'></div>
                     <div className='bg-[#18D993] h-48 w-8'></div>
                     <div className='bg-[#4F3BE7] h-32 w-8'></div>
