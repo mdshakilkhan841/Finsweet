@@ -8,32 +8,33 @@ import Logoipsum2 from './icon/Logoipsum2.svg'
 import Logoipsum3 from './icon/Logoipsum3.svg'
 import Logoipsum4 from './icon/Logoipsum4.svg'
 import Logoipsum5 from './icon/Logoipsum5.svg'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
         <div className=''>
-            <div className='h-60'>
+            <div className='sm:h-60 h-96'>
                 <div className='container px-5 pt-24 mx-auto text-white relative'>
-                    <div className='bg-[#4F3BE7] h-56 space-y-10 flex flex-col justify-center'>
+                    <div className='bg-[#4F3BE7] sm:h-56 h-96 space-y-10 flex flex-col justify-center'>
                         <div>
                             <p className='font-bold text-2xl'>Our Sponsors</p>
                         </div>
                         <div>
-                            <div className='container flex flex-wrap justify-between mx-auto items-center font-semibold text-lg px-14'>
+                            <div className='container flex flex-wrap sm:space-y-0 space-y-4 justify-between mx-auto items-center font-semibold text-lg sm:px-14 px-24'>
                                 <div className='cursor-pointer'>
-                                    <img src={Logoipsum1} alt="apple-podcasts" />
+                                    <img className='h-[38px] w-[166px]' src={Logoipsum1} alt="apple-podcasts" />
                                 </div>
                                 <div className='cursor-pointer'>
-                                    <img src={Logoipsum2} alt="sound-cloud" />
+                                    <img className='h-[38px] w-[166px]' src={Logoipsum2} alt="sound-cloud" />
                                 </div>
                                 <div className='cursor-pointer'>
-                                    <img src={Logoipsum5} alt="spotify" />
+                                    <img className='h-[38px] w-[166px]' src={Logoipsum5} alt="spotify" />
                                 </div>
                                 <div className='cursor-pointer'>
-                                    <img src={Logoipsum3} alt="google-podcasts" />
+                                    <img className='h-[38px] w-[166px]' src={Logoipsum3} alt="google-podcasts" />
                                 </div>
                                 <div className='cursor-pointer'>
-                                    <img src={Logoipsum4} alt="spotify" />
+                                    <img className='h-[38px] w-[166px]' src={Logoipsum4} alt="spotify" />
                                 </div>
                             </div>
                         </div>
@@ -42,39 +43,43 @@ const Footer = () => {
             </div>
             <div className="bg-[#14142B]">
                 <div className="container px-5 pt-48 pb-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col text-white">
-                    <div className="w-64 flex md:mx-0 mx-auto text-center md:text-left">
-                        <p className=" text-2xl font-bold">&#123;Finsweet</p>
+                    <div className="w-64 flex justify-center md:mx-0 mx-auto text-center md:text-left">
+                        <p className=" text-4xl font-bold">&#123;Finsweet</p>
                     </div>
                     <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-                        <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+                        <div className="lg:w-1/3 md:w-1/2 w-full px-20">
                             <h2 className="title-font font-bold tracking-widest text-lg mb-6">Pages</h2>
                             <nav className="list-none mb-10 space-y-4">
                                 <li>
-                                    <a className="">Home</a>
+                                    <Link to={'/'}>
+                                        <p className=" cursor-pointer">Home</p>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a className="">Podcast</a>
+                                    <p className=" cursor-pointer">Podcast</p>
                                 </li>
                                 <li>
-                                    <a className="">Host</a>
+                                    <p className=" cursor-pointer">Host</p>
                                 </li>
                                 <li>
-                                    <a className="">Blog</a>
+                                    <p className=" cursor-pointer">Blog</p>
                                 </li>
                             </nav>
                         </div>
-                        <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+                        <div className="lg:w-1/3 md:w-1/2 w-full px-16">
                             <h2 className="title-font font-bold  tracking-widest text-lg mb-6">Reach Us</h2>
                             <nav className="list-none mb-10 space-y-4">
                                 <li>
-                                    <a className="">Contact</a>
+                                    <p className="cursor-pointer">Contact</p>
                                 </li>
                                 <li>
-                                    <a className="">About</a>
+                                    <Link to={'./about'}>
+                                        <p className=" cursor-pointer">About</p>
+                                    </Link>
                                 </li>
                             </nav>
                         </div>
-                        <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+                        <div className="lg:w-1/3 md:w-1/2 w-full px-20">
                             <h2 className="title-font font-bold  tracking-widest text-lg mb-6">Subscribe</h2>
                             <nav className="list-none mb-10 space-y-5">
                                 <li>
@@ -98,7 +103,7 @@ const Footer = () => {
                                 <li>
                                     <div className='cursor-pointer  flex items-center space-x-2'>
                                         <img src={spotify} alt="spotify" />
-                                        <p>Spotify</p>
+                                        <p>Spotify®</p>
                                     </div>
                                 </li>
                             </nav>
@@ -107,7 +112,7 @@ const Footer = () => {
                 </div>
                 <div className="bg-[#4F3BE7] text-white">
                     <div className="container mx-auto py-4 px-5 flex justify-center flex-wrap flex-col sm:flex-row">
-                        <p className="text-sm text-center sm:text-left font-bold">© Copyright Finsweet 2023</p>
+                        <p className="text-md text-center sm:text-left font-bold">© Copyright Finsweet 2023</p>
                     </div>
                 </div>
             </div>

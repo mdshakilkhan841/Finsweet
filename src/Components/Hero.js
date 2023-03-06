@@ -45,7 +45,7 @@ const Hero = () => {
                 </div>
                 <div className='cursor-pointer  flex items-center space-x-2 sm:mt-0 mt-8'>
                     <img src={spotify} alt="spotify" />
-                    <p>Spotify</p>
+                    <p>Spotify®</p>
                 </div>
             </div>
         </>
