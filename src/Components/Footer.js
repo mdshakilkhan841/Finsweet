@@ -42,9 +42,9 @@ const Footer = () => {
                 </div>
             </div>
             <div className="bg-[#14142B]">
-                <div className="container px-5 pt-48 pb-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col text-white">
+                <div className="container px-5 pt-40 pb-16 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col text-white">
                     <div className="w-64 flex justify-center md:mx-0 mx-auto text-center md:text-left">
-                        <p className=" text-4xl font-bold">&#123;Finsweet</p>
+                        <p className=" text-3xl font-bold">&#123;Finsweet</p>
                     </div>
                     <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                         <div className="lg:w-1/3 md:w-1/2 w-full px-20">
