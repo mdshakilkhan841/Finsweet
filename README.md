@@ -1,7 +1,7 @@
 # Finsweet Web Application
 https://finsweet-react-app.netlify.app
 
-This a responsive awesome Froentend website created using ReactJs
+This a responsive awesome Frontend website created using ReactJs
 
 ![image](https://user-images.githubusercontent.com/77512256/223045373-617ae8e8-4a45-4966-bb26-8facd57182db.png)
 
